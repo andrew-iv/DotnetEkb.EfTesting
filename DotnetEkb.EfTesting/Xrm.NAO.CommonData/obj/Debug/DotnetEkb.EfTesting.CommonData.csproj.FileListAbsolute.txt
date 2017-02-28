@@ -1,0 +1,9 @@
+C:\Rabota\Doklad\DotnetEkb.EfTesting\Xrm.NAO.CommonData\bin\Debug\DotnetEkb.EfTesting.CommonData.dll.config
+C:\Rabota\Doklad\DotnetEkb.EfTesting\Xrm.NAO.CommonData\bin\Debug\DotnetEkb.EfTesting.CommonData.dll
+C:\Rabota\Doklad\DotnetEkb.EfTesting\Xrm.NAO.CommonData\bin\Debug\DotnetEkb.EfTesting.CommonData.pdb
+C:\Rabota\Doklad\DotnetEkb.EfTesting\Xrm.NAO.CommonData\bin\Debug\EntityFramework.dll
+C:\Rabota\Doklad\DotnetEkb.EfTesting\Xrm.NAO.CommonData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Rabota\Doklad\DotnetEkb.EfTesting\Xrm.NAO.CommonData\bin\Debug\EntityFramework.xml
+C:\Rabota\Doklad\DotnetEkb.EfTesting\Xrm.NAO.CommonData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Rabota\Doklad\DotnetEkb.EfTesting\Xrm.NAO.CommonData\obj\Debug\DotnetEkb.EfTesting.CommonData.dll
+C:\Rabota\Doklad\DotnetEkb.EfTesting\Xrm.NAO.CommonData\obj\Debug\DotnetEkb.EfTesting.CommonData.pdb

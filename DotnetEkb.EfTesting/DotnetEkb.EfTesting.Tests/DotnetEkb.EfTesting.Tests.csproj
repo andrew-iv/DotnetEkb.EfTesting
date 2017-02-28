@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE7920F4-513C-4455-82C9-CB591F638A91}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotnetEkb.EfTesting.Tests</RootNamespace>
+    <AssemblyName>DotnetEkb.EfTesting.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.0.0\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Effort, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6a46696d54971e6d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Effort.EF6.1.3.0\lib\net45\Effort.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Effort.Extra, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Effort.Extra.EF6.1.3.0\lib\net45\Effort.Extra.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentAssertions, Version=4.19.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.19.0\lib\net45\FluentAssertions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentAssertions.Core, Version=4.19.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.19.0\lib\net45\FluentAssertions.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Moq, Version=4.7.0.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.7.0\lib\net45\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NMemory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6a46696d54971e6d, processorArchitecture=MSIL">
+      <HintPath>..\packages\NMemory.1.1.2\lib\net45\NMemory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.6.1\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EffortContainer.cs" />
+    <Compile Include="Helpers\BaseTypeHelpers\IntHelper.cs" />
+    <Compile Include="Helpers\BaseTypeHelpers\ObjectHelper.cs" />
+    <Compile Include="Helpers\BaseTypeHelpers\StringHelper.cs" />
+    <Compile Include="Helpers\CollectionHelpers\CollectionHelper.cs" />
+    <Compile Include="Helpers\ComparerHelpers\CombinedComparer.cs" />
+    <Compile Include="Helpers\ComparerHelpers\FuncComparer.cs" />
+    <Compile Include="Helpers\ComparerHelpers\NaturalComparer.cs" />
+    <Compile Include="Helpers\CompressHelper\CompressHelper.cs" />
+    <Compile Include="Helpers\ConvertHelpers\BoolConvertHelper.cs" />
+    <Compile Include="Helpers\ConvertHelpers\ConvertersHelper.cs" />
+    <Compile Include="Helpers\ConvertHelpers\StreamConverter.cs" />
+    <Compile Include="Helpers\ConvertHelpers\XmlDocumentConverter.cs" />
+    <Compile Include="Helpers\DateHelpers\DateHelper.cs" />
+    <Compile Include="Helpers\DateHelpers\EndPeriodComparer.cs" />
+    <Compile Include="Helpers\DateHelpers\PeriodHelper.cs" />
+    <Compile Include="Helpers\EnumerableHelpers\EnumerableHelper.cs" />
+    <Compile Include="Helpers\EnumHelpers\DbEnumHelper.cs" />
+    <Compile Include="Helpers\EnumHelpers\EnumHelper.cs" />
+    <Compile Include="Helpers\ExpressionHelpers\AndPredicateContainer.cs" />
+    <Compile Include="Helpers\ExpressionHelpers\ExpressionHelper.cs" />
+    <Compile Include="Helpers\ExpressionHelpers\OrPredicateContainer.cs" />
+    <Compile Include="Helpers\ExpressionHelpers\ParameterRebinder.cs" />
+    <Compile Include="Helpers\ExpressionHelpers\QueryableHelper.cs" />
+    <Compile Include="Helpers\FilesAndDirectoryHelpers\CopyFolderHelper.cs" />
+    <Compile Include="Helpers\FilesAndDirectoryHelpers\FileHelper.cs" />
+    <Compile Include="Helpers\FilesAndDirectoryHelpers\FileNameToFileTypeIcon.cs" />
+    <Compile Include="Helpers\FilesAndDirectoryHelpers\PathHelper.cs" />
+    <Compile Include="Helpers\FioHelper.cs" />
+    <Compile Include="Helpers\FormattingHelpers\DecimalToPrice.cs" />
+    <Compile Include="Helpers\FormattingHelpers\IntFormatHelper.cs" />
+    <Compile Include="Helpers\FormattingHelpers\StringFormatHelper.cs" />
+    <Compile Include="Helpers\FormattingHelpers\Transliteration.cs" />
+    <Compile Include="Helpers\MathHelpers\MathHelper.cs" />
+    <Compile Include="Helpers\MathHelpers\PercentHelper.cs" />
+    <Compile Include="Helpers\PagerableOrderableHelpers\PagerableOrderableHelper.cs" />
+    <Compile Include="Helpers\SelectListItemHelpers\SelectListItemExtension.cs" />
+    <Compile Include="Helpers\SerializeHelpers\SerializationHelper.cs" />
+    <Compile Include="Helpers\SerializeHelpers\SerializeHelper.cs" />
+    <Compile Include="Helpers\SerializeHelpers\XmlSerializerHelper.cs" />
+    <Compile Include="Helpers\StreamHelpers\ReadHelper.cs" />
+    <Compile Include="Helpers\XmlHelpers\XmlDocumentHelper.cs" />
+    <Compile Include="Helpers\XmlHelpers\XmlNodeHelper.cs" />
+    <Compile Include="Helpers\XmlHelpers\XmlSchemaSetHelper.cs" />
+    <Compile Include="Logic\EffortTest.cs" />
+    <Compile Include="Logic\MockLoadTest.cs" />
+    <Compile Include="Logic\SpecialMockLoadTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflection\IMemberAccessor.cs" />
+    <Compile Include="Reflection\Impl\MemberGetter.cs" />
+    <Compile Include="Reflection\ITreeSerializerSettings.cs" />
+    <Compile Include="Reflection\ReflectionHelper.cs" />
+    <Compile Include="Reflection\TreeSerializaer.cs" />
+    <Compile Include="Reflection\TreeSerializerSettings.cs" />
+    <Compile Include="Stubs\CommonRepositoryStub.cs" />
+    <Compile Include="Stubs\IRepositoryStub.cs" />
+    <Compile Include="Stubs\Relations\EntityDependenciesContainer.cs" />
+    <Compile Include="Stubs\Relations\ILink.cs" />
+    <Compile Include="Stubs\Relations\OneToManyLink.cs" />
+    <Compile Include="Stubs\RepositoryManagerStub.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helpers\HashHelpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetEkb.EfTesting.Data\DotnetEkb.EfTesting.Main.csproj">
+      <Project>{F2EEAF4C-FAD9-4A23-A642-E39F94B48E7B}</Project>
+      <Name>DotnetEkb.EfTesting.Main</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Xrm.NAO.CommonData\DotnetEkb.EfTesting.CommonData.csproj">
+      <Project>{F0C04B9D-98D9-4FC7-832B-EA408AD8437A}</Project>
+      <Name>DotnetEkb.EfTesting.CommonData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

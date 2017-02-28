@@ -1,0 +1,16 @@
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\Xrm.NAO.CommonData.dll.config
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\Xrm.NAO.CommonData.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\Xrm.NAO.CommonData.pdb
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\DelegateDecompiler.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\EntityFramework.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\EntityFramework.SqlServer.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\MimeSharp.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\Mono.Reflection.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\NLog.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\Xrm.Universal.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\EntityFramework.xml
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\EntityFramework.SqlServer.xml
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Release\NLog.xml
+C:\Rabota\nao_git\Xrm.NAO.CommonData\obj\Release\Xrm.NAO.CommonData.csprojResolveAssemblyReference.cache
+C:\Rabota\nao_git\Xrm.NAO.CommonData\obj\Release\Xrm.NAO.CommonData.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\obj\Release\Xrm.NAO.CommonData.pdb

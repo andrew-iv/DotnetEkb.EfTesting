@@ -1,0 +1,16 @@
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\Xrm.NAO.CommonData.dll.config
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\Xrm.NAO.CommonData.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\Xrm.NAO.CommonData.pdb
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\DelegateDecompiler.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\EntityFramework.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\MimeSharp.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\Mono.Reflection.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\NLog.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\Xrm.Universal.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\EntityFramework.xml
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Rabota\nao_git\Xrm.NAO.CommonData\bin\Debug\NLog.xml
+C:\Rabota\nao_git\Xrm.NAO.CommonData\obj\Debug\Xrm.NAO.CommonData.dll
+C:\Rabota\nao_git\Xrm.NAO.CommonData\obj\Debug\Xrm.NAO.CommonData.pdb
+C:\Rabota\nao_git\Xrm.NAO.CommonData\obj\Debug\Xrm.NAO.CommonData.csprojResolveAssemblyReference.cache
