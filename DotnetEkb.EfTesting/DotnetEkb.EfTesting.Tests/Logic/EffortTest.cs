@@ -74,6 +74,22 @@ namespace DotnetEkb.EfTesting.Tests.Logic
         }
 
         [Test]
+        public void Save_User_New()
+        {
+            var service = new UsersService(_repoManager);
+            service.SaveUser(new UserInfo()
+            {
+                Fio = "LastName FN",
+                OrganizationInn = "Inn1",
+                OrganizationName = "OldOrg"
+            });
+
+            var assertManager = _effortContainer.RepositoryManager;
+            var org = assertManager.GetCommonRepository<OrganizationEntity>().FindById(1);
+            org.ShouldBeEquivalentTo(new OrganizationEntity() { Id = 1, Inn = "Inn1", Name = "OldOrg" });
+        }
+
+        [Test]
         public void Load_Null()
         {
             var service = new UsersService(_repoManager);
