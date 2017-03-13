@@ -1,11 +1,11 @@
 using DotnetEkb.EfTesting.CommonData.Repositories;
+using DotnetEkb.EfTesting.Data;
 using DotnetEkb.EfTesting.Data.Entities.Users;
 using DotnetEkb.EfTesting.Dto;
 using DotnetEkb.EfTesting.Logic;
 using Effort.Extra;
 using FluentAssertions;
 using NUnit.Framework;
-using Xrm.NAO.Social.Data;
 
 namespace DotnetEkb.EfTesting.Tests.Logic
 {

@@ -1,7 +1,7 @@
 using System.Data.Entity;
 using DotnetEkb.EfTesting.Data.Entities.Users;
 
-namespace Xrm.NAO.Social.Data
+namespace DotnetEkb.EfTesting.Data
 {
     public interface ISocialDbContext
     {

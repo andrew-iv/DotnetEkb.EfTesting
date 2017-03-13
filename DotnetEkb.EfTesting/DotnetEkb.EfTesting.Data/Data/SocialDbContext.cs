@@ -1,8 +1,8 @@
-using System.Data.Entity;
 using System.Data.Common;
+using System.Data.Entity;
 using DotnetEkb.EfTesting.Data.Entities.Users;
 
-namespace Xrm.NAO.Social.Data
+namespace DotnetEkb.EfTesting.Data
 {
     public class SocialDbContext : DbContext, ISocialDbContext
     {
