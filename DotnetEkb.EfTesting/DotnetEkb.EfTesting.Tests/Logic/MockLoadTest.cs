@@ -19,7 +19,6 @@ namespace DotnetEkb.EfTesting.Tests.Logic
         {
             _repoManager = new RepositoryManagerStub();
             _repoManager.DependenciesContainer = new EntityDependenciesContainer(() => _repoManager);
-            //TODO: Закоментировать для ДЕМО
             _repoManager.DependenciesContainer.AddOneToManyLink<UserEntity,OrganizationEntity>(x=>x.OrganizationId,x=>x.Organization);
 
             var firstOrg = new OrganizationEntity()
@@ -66,8 +65,7 @@ namespace DotnetEkb.EfTesting.Tests.Logic
                 OrganizationInn = "Inn",
                 OrganizationName = "OldOrg"
             });
-            //TODO: Fail =(
-            //var org = _repoManager.GetCommonRepository<OrganizationEntity>().FindById(2);
+
             var org = _repoManager.GetCommonRepository<OrganizationEntity>().Find(x=>x.Id == 2).LastOrDefault();
             org.ShouldBeEquivalentTo(new OrganizationEntity() {Id = 2, Inn = "Inn", Name = "OldOrg"});
         }
